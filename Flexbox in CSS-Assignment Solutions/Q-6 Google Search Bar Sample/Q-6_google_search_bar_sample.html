@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search Bar Sample</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #201F24;
+        }
+        .main-page{
+            width: 720px;
+            height: 300px;
+            margin: 180px auto;
+        }
+        header>img{
+            width: 355px;
+            margin-left: 187px;
+        }
+        .input-field-box{
+            width: 625px;
+            height: 50px;
+            border: 1px solid #585858;
+            border-radius: 40px;
+            margin: 27px auto;
+            display: flex;
+        }
+        .search_icon_box{
+            width: 48px;
+            height: 48px;
+            margin-left: 7px;
+            padding: 15px;
+        }
+        .search_icon_box>img{
+            width: 18px;
+        }
+        .search_input_field{
+            width: 487px;
+            height: 48px;
+            padding-top: 10px;
+        }
+        .search_input{
+            width: 480px;
+            height: 27px;
+            font-size: 19px;
+            font-family: calibri;
+            padding-left: 5px;
+            background-color: #201F24;
+            color: #585858;
+            border: none;
+            outline: none;
+        }
+        .search_mic_box{
+            width: 30px;
+            height: 48px;
+            padding-top: 12px;
+            padding-left: 5px;
+        }
+        .search_mic_box>img{
+            width: 16px;
+        }
+        .google_lens_box{
+            width: 40px;
+            height: 48px;
+            padding-top: 12px;
+            padding-left: 7px;
+        }
+        .google_lens_box>img{
+            width: 22px;
+        }
+        .btn>img{
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-page">
+        <header>
+            <img src="images/google_name_icon.png" alt="google_name_icon"/>
+        </header>
+        <main class="input-field-box">
+            <div class="search_icon_box">
+                <img src="images/google_search_icon.png" alt="google_search_icon"/>
+            </div>
+            <div class="search_input_field">
+                <form>
+                    <input class="search_input" type="text" name="search input" placeholder="Search Google or type a URL"/>
+                </form>
+            </div>
+            <div class="search_mic_box">
+                <img src="images/google mic icon.png" alt="google mic icon"/>
+            </div>
+            <div class="google_lens_box">
+                <img src="images/google lens icon.png" alt="google lens icon"/>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

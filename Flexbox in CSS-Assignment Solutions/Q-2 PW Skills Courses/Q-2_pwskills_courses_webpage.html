@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <style>
+        body{
+            background-color: #CAD6E4;
+        }
+        .sub-container{
+            text-align: center;
+        }
+        .sub-container > h1{
+            color: #575C93;
+            font-family: sans-serif;
+            margin: 0;
+        }
+        .sub-container > p{
+            color: gray;
+            font-family: sans-serif;
+            font-size: 13px;
+            margin-top: 7px;
+        }
+        .card-container{
+            width: 1000px;
+            margin: 100px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card-item{
+            width: 320px;
+            height: 350px;
+            background-color: #fff;
+            padding: 14px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        .card-item > img{
+            width: 290px;
+            height: 170px;
+        }
+        .course-name{
+            color: #5a5aa3;
+            font-family: century gothic;
+        }
+        .faculty-name{
+            font-family: calibri;
+            font-size: 13.5px;
+        }
+        .last-para{
+            margin-top: 41px;
+        }
+        .price{
+            font-family: calibri;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <h1>Community Programs</h1>
+            <p>Open to all pro-live classes on Youtube for free.</p>
+        </div>
+        <div class="card-container">
+            <div class="card-item">
+                <img src="images/FSWD.png" alt="FSWD"/>
+                <h3 class="course-name">Full Stack Web Development Sigma Batch 2.0</h3>
+                <p class="faculty-name">Hitesh Choudhary, Vishwa Mohan, Anurag Tyagi</p>
+                <p class="price">FREE</p>
+            </div>
+            <div class="card-item">
+                <img src="images/MDRN.png" alt="MDRN"/>
+                <h3 class="course-name">Mobile Development Using React Native</h3>
+                <p class="faculty-name">Mrigank K</p>
+                <p class="price">FREE</p>
+            </div>
+            <div class="card-item">
+                <img src="images/Python.png" alt="Python"/>
+                <h3 class="course-name">Python For Beginners</h3>
+                <p class="faculty-name last-para">Sudhanshu Kumar</p>
+                <p class="price">FREE</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

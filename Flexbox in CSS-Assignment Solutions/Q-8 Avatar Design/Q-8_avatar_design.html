@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Design</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #252A2E;
+        }
+        .container{
+            width: 810px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: 150px;
+            left: 350px;
+        }
+        .avatar-1{
+            width: 200px;
+            height: 200px;
+            margin-left: 1px;
+            border: 10px solid white;
+            border-radius: 50%;
+            background-image: url(images/pokemon.png);
+            background-size: cover;
+            position: relative;
+            z-index: 4;
+        }
+        .avatar-2{
+            width: 200px;
+            height: 200px;
+            margin-left: 1px;
+            border: 10px solid white;
+            border-radius: 50%;
+            background-image: url(images/naruto1.png);
+            background-size: cover;
+            position: relative;
+            z-index: 3;
+            left: -40px;
+        }
+        .avatar-3{
+            width: 200px;
+            height: 200px;
+            margin-left: 1px;
+            border: 10px solid white;
+            border-radius: 50%;
+            background-image: url(images/naruto2.png);
+            background-size: cover;
+            position: relative;
+            z-index: 2;
+            left: -90px;
+        }
+        .avatar-4{
+            width: 200px;
+            height: 200px;
+            margin-left: 1px;
+            border: 10px solid white;
+            border-radius: 50%;
+            background-image: url(images/goku.png);
+            background-size: cover;
+            position: relative;
+            z-index: 1;
+            left: -130px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar-1"></div>
+        <div class="avatar-2"></div>
+        <div class="avatar-3"></div>
+        <div class="avatar-4"></div>
+    </div>
+</body>
+</html>

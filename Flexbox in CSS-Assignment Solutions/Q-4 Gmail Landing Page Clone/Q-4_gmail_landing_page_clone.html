@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Landing Page Clone</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        /* header coding starts here */
+        header{
+            width: 100%;
+            height: 59px;
+            box-shadow: 0px 0px 6px #aaaaaa;
+            display: flex;
+            position: sticky;
+            top: 0;
+            padding-top: 6px;
+            background-color: #ffffff;
+        }
+        .gmail-icon{
+            width: 40px;
+            height: 30px;
+            margin-left: 67px;
+            margin-top: 8px;
+        }
+        .gmail-icon > img{
+            width: 30px;
+            height: 30px;
+        }
+        .gmail-name{
+            width: 65px;
+            height: 30px;
+            margin-top: 9px;
+            padding-left: 1px;
+        }
+        .gmail-name >a{
+            text-decoration: none;
+            color: gray;
+            font-family: Product Sans;
+            font-size: 23px;
+        }
+        .header-btn1{
+            width: 110px;
+            height: 49px;
+            border-radius: 5px;
+            margin-left: 675px;
+            border: none;
+            background-color: #ffffff;
+        }
+        .header-btn1 > a{
+            text-decoration: none;
+            color: #1a73e8;
+            font-family: Product Sans;
+            font-size: 17px;
+            text-align: center;
+        }
+        .header-btn1:hover{
+            cursor: pointer;
+            background-color: #F4F8FE;
+        }
+        .header-btn1:hover>a{
+            color: #174EA6;
+        }
+        .header-btn2{
+            width: 100px;
+            height: 49px;
+            border-radius: 5px;
+            border: 1px solid #cccccc;
+            margin-left: 19px;
+            background-color: #ffffff;
+        }
+        .header-btn2 > a{
+            text-decoration: none;
+            color: #1a73e8;
+            font-family: Product Sans;
+            font-size: 17px;
+            text-align: center;
+        }
+        .header-btn2:hover{
+            cursor: pointer;
+            background-color: #F1F3F4;
+        }
+        .header-btn2:hover>a{
+            color: #174EA6;
+        }
+        .header-btn3{
+            width: 190px;
+            height: 49px;
+            background-color: #1a73e8;
+            border: none;
+            border-radius: 5px;
+            margin-left: 16px;
+        }
+        .header-btn3 >a{
+            text-decoration: none;
+            color: white;
+            font-family: Product Sans;
+            font-size: 17px;
+            text-align: center;
+        }
+        .header-btn3:hover{
+            cursor: pointer;
+            background-color: #174EA6;
+        }
+        /* header coding ends here */
+        /* main coding starts here */
+        main{
+            width: 100%;
+            height: 700px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* section coding starts here */
+        section{
+            width: 47%;
+            height: 560px;
+            padding-top: 170px;
+            padding-left: 70px;
+        }
+        section > h1{
+            font-family: Product Sans;
+            font-size: 55px;
+            font-weight: normal;
+            width: 420px;
+            line-height: 60px;
+        }
+        section > p{
+            color: gray;
+            font-family: Product Sans;
+            font-size: 19px;
+            margin-top: 35px;
+            margin-bottom: 36px;
+            width: 480px;
+        }
+        .section-btn1{
+            width: 190px;
+            height: 49px;
+            background-color: #1a73e8;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .section-btn1 > a{
+            text-decoration: none;
+            color: white;
+            font-family: Product Sans;
+            font-size: 17px;
+            text-align: center;
+        }
+        .section-btn1:hover{
+            cursor: pointer;
+            background-color: #174EA6;
+        }
+        .section-btn2{
+            width: 110px;
+            height: 49px;
+            border-radius: 5px;
+            border: none;
+            margin-left: 5px;
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+        .section-btn2 > a{
+            text-decoration: none;
+            color: #1a73e8;
+            font-family: Product Sans;
+            font-size: 17px;
+            text-align: center;
+        }
+        .section-btn2:hover{
+            cursor: pointer;
+            background-color: #F4F8FE;
+        }
+        .section-btn2:hover>a{
+            color: #174EA6;
+        }
+        /* section coding ends here */
+        /* aside coding starts here */
+        aside{
+            width: 53%;
+            height: 560px;
+        }
+        aside > img{
+            width: 100%;
+            height: 560px;
+        }
+        /* aside coding ends here */
+        /* main coding ends here */
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <div class="gmail-icon">
+                <img src="images/logo-gmail.png" alt="logo-gmail"/>
+            </div>
+        </a>
+        <div class="gmail-name">
+            <a href="#">Gmail</a>
+        </div>
+        <button class="header-btn1">
+            <a href="#">For work</a>
+        </button>
+        <button class="header-btn2">
+            <a href="#">Sign in</a>
+        </button>
+        <button class="header-btn3">
+            <a href="#">Create an account</a>
+        </button>
+    </header>
+    <main>
+        <section>
+            <h1>Secure, smart, and easy to use email</h1>
+            <p>Get more done with Gmail. Now integrated with Google Chat, Google Meet, and more, all in one place.</p>
+            <button class="section-btn1">
+                <a href="#">Create an account</a>
+            </button>
+            <button class="section-btn2">
+                <a href="#">For work</a>
+            </button>
+        </section>
+        <aside>
+            <img src="images/gmail-banner.JPG" alt="">
+        </aside>
+    </main>
+</body>
+</html>
